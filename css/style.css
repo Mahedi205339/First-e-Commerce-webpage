@@ -62,3 +62,79 @@ a{
 .section1 img{
     height: 300px;
 }
+.section1-button{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+}
+.section1-button h1,h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .08);
+    margin: 0px;
+    line-height:60px;
+    font-size:4rem ;
+    letter-spacing: 3px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+    letter-spacing: 28px;
+}
+span{
+    color: #7a72ff;
+}
+.btn{
+   width: 150px;
+   height: 40px;
+   background-color: #2f2e41;
+   box-shadow: 2px 2px 30px rgba(0, 0, 0, .1);
+   display: flex;
+   justify-content: center;
+   border-radius:  10% 10% 10% 10% /50% 50% 50% 50%;
+   margin-top: 20px;
+   color: #fff;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 600;
+   letter-spacing: .5px;
+   font-size: 1rem;
+   outline: none;
+   cursor: pointer;
+   border: transparent !important;
+   padding-top: 8px;
+}
+.btn:hover{
+   background-color: #7a72ff;
+   transition:all ease .5s;
+}
+.icon-area a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px 15px ;
+}
+.icon-area{
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+.icon-area a i{
+    color: rgba(39, 39, 39, .8);
+}
+.icon-area a:hover .fa-facebook{
+    color: #3b5998;
+}
+.icon-area a:hover .fa-twitter{
+    color: #00acee;
+}
+.icon-area a:hover .fa-instagram{
+    color: rgb(244, 5, 177);
+}
+.icon-area a:hover .fa-youtube{
+    color: #ff0000;
+}
